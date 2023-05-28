@@ -1,0 +1,48 @@
+nav li a {
+  text-decoration: none !important;
+  color: #565656;
+}
+
+.nav-item {
+  font-family: "Manrope", sans-serif;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #fff;
+  color: #84C2E4;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #84C2E4;
+  color: aquamarine;
+}
+
+.salas .titles {
+  font-family: "Manrope", sans-serif;
+  font-size: 26px;
+  color: #565656;
+  padding: 20px 20px 0px 20px;
+}
+.salas .description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #565656;
+  padding: 20px;
+}
+
+.divisorias .titles {
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #84C2E4;
+  text-align: center;
+  padding: 20px 20px 0px 20px;
+}
+.divisorias .description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #565656;
+  text-align: center;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=global.css.map */
