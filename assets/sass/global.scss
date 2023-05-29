@@ -1,3 +1,6 @@
+body{
+    background-color: #fff;
+}
 
 nav {
     li a {
@@ -19,19 +22,39 @@ nav {
    color: aquamarine;
 }
 
+.banner-principal {
+    background-image: url(/images/sala01/1678910854930.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .salas{
+    background-color: #fff;
+    border: solid 1px #565656;
     .titles{
         font-family: 'Manrope', sans-serif;
-        font-size: 26px;
-        color: #565656;
+        font-size: 32px;
+        font-weight: 600;
+        color: #9FBF54;
         //text-align: center;
         padding: 20px 20px 0px 20px;
+        text-transform: uppercase;
     }
     .description{
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
         color: #565656;
         padding: 20px;
+    }
+
+    .carousel-inner{
+        .adjustesImage {
+            height: 312px;
+        }
     }
 }
 
@@ -39,15 +62,17 @@ nav {
     //background-color: aqua;
     .titles{
         font-family: 'Manrope', sans-serif;
-        font-size: 32px;
-        font-weight: 400;
+        font-size: 34px;
+        line-height: 35px;
+        font-weight: 600;
         color: #84C2E4;
         text-align: center;
         padding: 20px 20px 0px 20px;
     }
     .description{
         font-family: 'Montserrat', sans-serif;
-        font-size: 15px;
+        font-size: 16px;
+        line-height: 22px;
         color: #565656;
         text-align: center;
         padding: 20px;
@@ -55,40 +80,50 @@ nav {
 }
 
 .divisoriasGradiente{
+    background-color: #fff;
     text-align: center;
     .titles{
         font-family: 'Manrope', sans-serif;
-        font-size: 32px;
-        font-weight: 400;
-        color: white;
-        padding: 20px 20px 0px 20px;
+        font-size: 34px;
+        line-height: 35px;
+        font-weight: 600;
+        color: #84C2E4;
+        text-align: center;
+        //padding: 20px 20px;
+    }
+
+    i {
+        color: #9FBF54;
+        font-size: 60px;
+        margin-top: 10px;
     }
 
     h3 {
         font-family: 'Manrope', sans-serif;
-        font-size: 20px;
-        font-weight: 600;
-        color: white;
-        margin-top: 20px;
+        font-size: 26px;
+        line-height: 28px;
+        //text-transform: uppercase;
+        font-weight: 700;
+        color: #565656;
+        padding-top: 20px;
+        //margin-top: 20px;
         //padding: 20px 20px 0px 20px;
     }
 
     p {
         font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        color: white;
-        padding: 20px;
+        font-size: 16px;
+        line-height: 22px;
+        color: #565656;
+        padding-top: 10px;
     }
 
-    i {
-        color: white;
-        font-size: 45px;
+    .col-sm-12{
+        //border: solid 1px #565656;
+        //margin: 10px;
     }
 }
 
-.gradient{
-    background-image: linear-gradient(to right, #9FBF54 , #84C2E4);
-}
 
 .avaliacoes{
     h3{

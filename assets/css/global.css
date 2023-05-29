@@ -1,3 +1,7 @@
+body {
+  background-color: #fff;
+}
+
 nav li a {
   text-decoration: none !important;
   color: #565656;
@@ -16,11 +20,27 @@ nav li a {
   color: aquamarine;
 }
 
+.banner-principal {
+  background-image: url(/images/sala01/1678910854930.jpg);
+  background-attachment: fixed;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.salas {
+  background-color: #fff;
+  border: solid 1px #565656;
+}
 .salas .titles {
   font-family: "Manrope", sans-serif;
-  font-size: 26px;
-  color: #565656;
+  font-size: 32px;
+  font-weight: 600;
+  color: #9FBF54;
   padding: 20px 20px 0px 20px;
+  text-transform: uppercase;
 }
 .salas .description {
   font-family: "Montserrat", sans-serif;
@@ -28,55 +48,60 @@ nav li a {
   color: #565656;
   padding: 20px;
 }
+.salas .carousel-inner .adjustesImage {
+  height: 312px;
+}
 
 .divisorias .titles {
   font-family: "Manrope", sans-serif;
-  font-size: 32px;
-  font-weight: 400;
+  font-size: 34px;
+  line-height: 35px;
+  font-weight: 600;
   color: #84C2E4;
   text-align: center;
   padding: 20px 20px 0px 20px;
 }
 .divisorias .description {
   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 22px;
   color: #565656;
   text-align: center;
   padding: 20px;
 }
 
 .divisoriasGradiente {
+  background-color: #fff;
   text-align: center;
 }
 .divisoriasGradiente .titles {
   font-family: "Manrope", sans-serif;
-  font-size: 32px;
-  font-weight: 400;
-  color: white;
-  padding: 20px 20px 0px 20px;
+  font-size: 34px;
+  line-height: 35px;
+  font-weight: 600;
+  color: #84C2E4;
+  text-align: center;
+}
+.divisoriasGradiente i {
+  color: #9FBF54;
+  font-size: 60px;
+  margin-top: 10px;
 }
 .divisoriasGradiente h3 {
   font-family: "Manrope", sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  color: white;
-  margin-top: 20px;
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #565656;
+  padding-top: 20px;
 }
 .divisoriasGradiente p {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  color: white;
-  padding: 20px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #565656;
+  padding-top: 10px;
 }
-.divisoriasGradiente i {
-  color: white;
-  font-size: 45px;
-}
-
-.gradient {
-  background-image: linear-gradient(to right, #9FBF54, #84C2E4);
-}
-
 .avaliacoes h3 {
   font-family: "Manrope", sans-serif;
   font-size: 26px;
