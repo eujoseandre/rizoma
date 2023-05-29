@@ -53,3 +53,85 @@ nav {
         padding: 20px;
     }
 }
+
+.divisoriasGradiente{
+    text-align: center;
+    .titles{
+        font-family: 'Manrope', sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+        color: white;
+        padding: 20px 20px 0px 20px;
+    }
+
+    h3 {
+        font-family: 'Manrope', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        margin-top: 20px;
+        //padding: 20px 20px 0px 20px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: white;
+        padding: 20px;
+    }
+
+    i {
+        color: white;
+        font-size: 45px;
+    }
+}
+
+.gradient{
+    background-image: linear-gradient(to right, #9FBF54 , #84C2E4);
+}
+
+.avaliacoes{
+    h3{
+        font-family: 'Manrope', sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        color: #84C2E4;
+        margin: 10px 0px;
+    }
+
+    i{
+        color: orangered;
+    }
+
+    p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: #565656;
+        margin: 10px 0px;
+    }
+}
+
+.rodape {
+    background-color: #769D6F;
+    font-family: 'Manrope', sans-serif;
+    color: #fff;
+    p {
+        margin: 0;
+        margin-top: 18px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    h3{
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 8px;
+        border-bottom: solid 2px #fff;
+        width: 30%;
+    }
+
+    .copyright{
+        background-color: #037549;
+    }
+}
