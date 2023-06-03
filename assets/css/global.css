@@ -21,17 +21,17 @@ nav li a {
 }
 
 .banner-principal {
-  background-image: url(/images/sala01/1678910854930.jpg);
-  -moz-background-image: url(/images/sala01/1678910854930.jpg);
-  -webkit-background-image: url(/images/sala01/1678910854930.jpg);
-  -ms-background-image: url(/images/sala01/1678910854930.jpg);
-  -o-background-image: url(/images/sala01/1678910854930.jpg);
-  background-attachment: fixed;
-  height: 500px;
   display: flex;
   flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(../../images/sala01/1678910854930.jpg);
+  -moz-background-image: url(../../images/sala01/1678910854930.jpg);
+  -webkit-background-image: url(../../images/sala01/1678910854930.jpg);
+  -ms-background-image: url(../../images/sala01/1678910854930.jpg);
+  -o-background-image: url(../../images/sala01/1678910854930.jpg);
+  height: 500px;
 }
 
 .salas {
