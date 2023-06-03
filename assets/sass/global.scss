@@ -1,130 +1,221 @@
 body{
     background-color: #fff;
+
+    strong {
+        font-weight: 800;
+    }
 }
 
-nav {
+.menutopo {
+
+    opacity: 70%;
+
+    i {
+        font-size: 14px;
+        color: #565656;
+    }
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        line-height: 22px;
+        color: #565656;
+        padding: 0;
+        margin: 0;
+        display: inline;
+    }
+
+    .container {
+        border-bottom: 1px solid #d1d1d1;
+    }
+}
+
+.navbar {
     li a {
         text-decoration: none !important;
         color: #565656;
     }
-}
 
-.nav-item {
-    font-family: 'Manrope', sans-serif;
-    text-decoration: none;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #fff;
-    color: #84C2E4;
-}
-
-.nav-item:hover{
-   border-bottom: 2px solid #84C2E4;
-   color: aquamarine;
+    .nav-item {
+        font-family: 'Manrope', sans-serif;
+        text-decoration: none;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #fff;
+        font-weight: 500;
+        transform: scale(1.0);
+    }
+    
+    .nav-item:hover{
+       border-bottom: 2px solid #84C2E4;
+       a {
+        color: #84C2E4;
+       }
+    }
+    
 }
 
 .banner-principal {
-    background-image: url(../../images/sala01/1678910854930.jpg);
-    -moz-background-image: url(../../images/sala01/1678910854930.jpg);
-    -webkit-background-image: url(../../images/sala01/1678910854930.jpg);
-    -ms-background-image: url(../../images/sala01/1678910854930.jpg);
-    -o-background-image: url(../../images/sala01/1678910854930.jpg);
+    background-image: url(../../images/1678910854930.jpg);
+    -moz-background-image: url(../../images/1678910854930.jpg);
+    -webkit-background-image: url(../../images/1678910854930.jpg);
+    -ms-background-image: url(../../images/1678910854930.jpg);
+    -o-background-image: url(../../images/1678910854930.jpg);
     display: flex;
     flex-direction: column;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 500px;
+    height: 450px;
 }
 
-.salas{
-    background-color: #fff;
-    border: solid 1px #565656;
-    .titles{
-        font-family: 'Manrope', sans-serif;
-        font-size: 32px;
-        font-weight: 600;
-        color: #9FBF54;
-        //text-align: center;
-        padding: 20px 20px 0px 20px;
-        text-transform: uppercase;
-    }
-    .description{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        color: #565656;
-        padding: 20px;
-    }
+.divAntesala {
 
-    .carousel-inner{
-        .adjustesImage {
-            height: 312px;
-        }
-    }
-}
-
-.divisorias{
-    //background-color: aqua;
-    .titles{
+    border-bottom: 1px solid #d1d1d1;
+    
+    h2 {
         font-family: 'Manrope', sans-serif;
         font-size: 34px;
-        line-height: 35px;
+        line-height: 42px;
         font-weight: 600;
-        color: #84C2E4;
-        text-align: center;
-        padding: 20px 20px 0px 20px;
+        color: #565656;
+        margin-bottom: 20px;
     }
-    .description{
+
+    strong {
+        color: #9FBF54;
+    }
+
+    h3 {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         line-height: 22px;
         color: #565656;
-        text-align: center;
-        padding: 20px;
+        opacity: 60%;
+    }
+
+    img {
+        width: 100px;
+        margin: 20px 0;
     }
 }
 
-.divisoriasGradiente{
+.salas{
+
     background-color: #fff;
-    text-align: center;
-    .titles{
+
+
+    h2 {
         font-family: 'Manrope', sans-serif;
-        font-size: 34px;
-        line-height: 35px;
+        font-size: 28px;
         font-weight: 600;
-        color: #84C2E4;
-        text-align: center;
-        //padding: 20px 20px;
+        color: #565656;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: #565656;
+        margin-top: 15px;
+        opacity: 70%;
     }
 
     i {
+        font-size: 35px;
         color: #9FBF54;
-        font-size: 60px;
-        margin-top: 10px;
+    }
+
+    button {
+        text-align: center;
+        color: #fff;
+        background-color: #84C2E4;
+        border: none;
+        border-radius: 20px;
+
+        h3{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        color: #fff;
+        display: inline;
+        }
+
+        i{
+            color: #fff;
+            font-size: 16px;
+        }
+    }
+
+    button:hover{
+        background-color: #9FBF54;
+    }
+
+    .divisorias{
+
+        h2 {
+            font-family: 'Manrope', sans-serif;
+            font-size: 34px;
+            line-height: 42px;
+            font-weight: 600;
+            color: #9FBF54;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            line-height: 22px;
+            color: #565656;
+            text-align: center;
+            opacity: 60%;
+        }
+    }
+}
+
+.beneficios {
+
+    background-color: #fff;
+    margin-top: 180px;
+    text-align: center;
+
+    i {
+        color: #9FBF54;
+        font-size: 40px;
     }
 
     h3 {
         font-family: 'Manrope', sans-serif;
-        font-size: 26px;
-        line-height: 28px;
-        //text-transform: uppercase;
-        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 800;
         color: #565656;
-        padding-top: 20px;
-        //margin-top: 20px;
-        //padding: 20px 20px 0px 20px;
+        padding: 20px;
     }
 
+
+    h2 {
+        font-family: 'Manrope', sans-serif;
+        font-size: 34px;
+        line-height: 42px;
+        font-weight: 600;
+        color: #9FBF54;
+        text-align: center;
+        margin-bottom: 20px;
+    }
     p {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         line-height: 22px;
         color: #565656;
-        padding-top: 10px;
+        text-align: center;
+        padding-bottom: 20px;
+        opacity: 60%;
     }
 }
 
 
 .avaliacoes{
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
     h3{
         font-family: 'Manrope', sans-serif;
         font-size: 26px;
@@ -167,5 +258,11 @@ nav {
 
     .copyright{
         background-color: #037549;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+	.menutopo{
+        display: none;
     }
 }

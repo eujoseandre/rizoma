@@ -1,112 +1,189 @@
 body {
   background-color: #fff;
 }
+body strong {
+  font-weight: 800;
+}
 
-nav li a {
+.menutopo {
+  opacity: 70%;
+}
+.menutopo i {
+  font-size: 14px;
+  color: #565656;
+}
+.menutopo p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #565656;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+.menutopo .container {
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.navbar li a {
   text-decoration: none !important;
   color: #565656;
 }
-
-.nav-item {
+.navbar .nav-item {
   font-family: "Manrope", sans-serif;
   text-decoration: none;
   padding-bottom: 5px;
   border-bottom: 2px solid #fff;
+  font-weight: 500;
+  transform: scale(1);
+}
+.navbar .nav-item:hover {
+  border-bottom: 2px solid #84C2E4;
+}
+.navbar .nav-item:hover a {
   color: #84C2E4;
 }
 
-.nav-item:hover {
-  border-bottom: 2px solid #84C2E4;
-  color: aquamarine;
-}
-
 .banner-principal {
-  background-image: url(../../images/sala01/1678910854930.jpg);
-  -moz-background-image: url(../../images/sala01/1678910854930.jpg);
-  -webkit-background-image: url(../../images/sala01/1678910854930.jpg);
-  -ms-background-image: url(../../images/sala01/1678910854930.jpg);
-  -o-background-image: url(../../images/sala01/1678910854930.jpg);
+  background-image: url(../../images/1678910854930.jpg);
+  -moz-background-image: url(../../images/1678910854930.jpg);
+  -webkit-background-image: url(../../images/1678910854930.jpg);
+  -ms-background-image: url(../../images/1678910854930.jpg);
+  -o-background-image: url(../../images/1678910854930.jpg);
   display: flex;
   flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 500px;
+  height: 450px;
+}
+
+.divAntesala {
+  border-bottom: 1px solid #d1d1d1;
+}
+.divAntesala h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 600;
+  color: #565656;
+  margin-bottom: 20px;
+}
+.divAntesala strong {
+  color: #9FBF54;
+}
+.divAntesala h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #565656;
+  opacity: 60%;
+}
+.divAntesala img {
+  width: 100px;
+  margin: 20px 0;
 }
 
 .salas {
   background-color: #fff;
-  border: solid 1px #565656;
 }
-.salas .titles {
+.salas h2 {
   font-family: "Manrope", sans-serif;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 600;
-  color: #9FBF54;
-  padding: 20px 20px 0px 20px;
-  text-transform: uppercase;
+  color: #565656;
+  margin-left: 0px;
+  margin-top: 10px;
 }
-.salas .description {
+.salas p {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #565656;
-  padding: 20px;
+  margin-top: 15px;
+  opacity: 70%;
 }
-.salas .carousel-inner .adjustesImage {
-  height: 312px;
-}
-
-.divisorias .titles {
-  font-family: "Manrope", sans-serif;
-  font-size: 34px;
-  line-height: 35px;
-  font-weight: 600;
-  color: #84C2E4;
-  text-align: center;
-  padding: 20px 20px 0px 20px;
-}
-.divisorias .description {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  line-height: 22px;
-  color: #565656;
-  text-align: center;
-  padding: 20px;
-}
-
-.divisoriasGradiente {
-  background-color: #fff;
-  text-align: center;
-}
-.divisoriasGradiente .titles {
-  font-family: "Manrope", sans-serif;
-  font-size: 34px;
-  line-height: 35px;
-  font-weight: 600;
-  color: #84C2E4;
-  text-align: center;
-}
-.divisoriasGradiente i {
+.salas i {
+  font-size: 35px;
   color: #9FBF54;
-  font-size: 60px;
-  margin-top: 10px;
 }
-.divisoriasGradiente h3 {
+.salas button {
+  text-align: center;
+  color: #fff;
+  background-color: #84C2E4;
+  border: none;
+  border-radius: 20px;
+}
+.salas button h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  display: inline;
+}
+.salas button i {
+  color: #fff;
+  font-size: 16px;
+}
+.salas button:hover {
+  background-color: #9FBF54;
+}
+.salas .divisorias h2 {
   font-family: "Manrope", sans-serif;
-  font-size: 26px;
-  line-height: 28px;
-  font-weight: 700;
-  color: #565656;
-  padding-top: 20px;
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 600;
+  color: #9FBF54;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.divisoriasGradiente p {
+.salas .divisorias p {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #565656;
-  padding-top: 10px;
+  text-align: center;
+  opacity: 60%;
 }
 
+.beneficios {
+  background-color: #fff;
+  margin-top: 180px;
+  text-align: center;
+}
+.beneficios i {
+  color: #9FBF54;
+  font-size: 40px;
+}
+.beneficios h3 {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 800;
+  color: #565656;
+  padding: 20px;
+}
+.beneficios h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 600;
+  color: #9FBF54;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.beneficios p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #565656;
+  text-align: center;
+  padding-bottom: 20px;
+  opacity: 60%;
+}
+
+.avaliacoes {
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+}
 .avaliacoes h3 {
   font-family: "Manrope", sans-serif;
   font-size: 26px;
@@ -145,6 +222,12 @@ nav li a {
 }
 .rodape .copyright {
   background-color: #037549;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .menutopo {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=global.css.map */

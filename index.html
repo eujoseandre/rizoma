@@ -12,8 +12,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="assets/css/global.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="gallery-files/css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="gallery-files/css/style.css"> <!-- Resource style -->
+    <script src="gallery-files/js/modernizr.js"></script> <!-- Modernizr -->
   </head>
   <body>
+    <div class="menutopo m-0 navbar">
+      <div class="container py-2">
+        <p>Entre em contato conosco:</p>
+        <i class="bi bi-telephone-fill me-2 mx-auto"></i>
+        <p class="me-3">+55 (11)  97609-9559</p>
+        <i class="bi bi-envelope-fill mx-2"></i>
+        <p>contato@clinicarizoma.com.br</p>
+      </div>
+    </div>
+
     <nav class="navbar navbar sticky-top navbar-expand-lg bg-body-tertiary shadow-lg bg-white">
       <div class="container">
         <a class="navbar-brand" href="#">
@@ -36,199 +50,188 @@
       <p>teste</p>
     </div>
 
-    <div class="container">
+    <div class="container py-5 divAntesala">
+      <div class="row">
+        <div class="col-sn-12 col-md-9">
+          <h2><strong>Psicólogo</strong>, está procurando uma sala completa para realizar seus atendimentos?</h2>
+          <h3>A Clínica Rizoma realiza sublocação de salas por hora ou período com descontos progressivos!<br>
+            Será um prazer compartilhar o espaço com você!</h3>
+        </div>
+        <div class="col-sm-12 col-md-3 text-center">
+          <img src="images/sala-icone.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="container salas">
       <div class="divisorias py-5">
-        <h2 class="titles">Conheça nosso espaço</h2>
-        <p class="description">São <strong>6 salas</strong> e <strong>2 recepções</strong> decoradas em parceria com pintoras brasileiras. Ambientes pensados e organizados para favorecer o acolhimento, a escuta e a criatividade! 
+        <h2>Conheça o espaço da Clinica Rizoma</h2>
+        <p>São <strong>6 salas</strong> e <strong>2 recepções</strong> decoradas em parceria com pintoras brasileiras. Ambientes pensados e organizados para favorecer o acolhimento, a escuta e a criatividade! 
           <strong>Somos um espaço pensado e desenvolvido por psicólogos.</strong></p>
       </div>
 
-      <section class="spaces">
-
-        <div class="row salas m-0 shadow-lg mb-5 rounded">
-          <div class="col-sm-12 col-lg-6 p-0">
-            <h2 class="titles">Sala 01</h2>
-            <p class="description">Vaso com palmeira <em>raphis</em> - Persiana quebra-sol - Poltrona - Sofá de 02 lugares - Almofadas e manta - Mesa de apoio para notebook - Mesinha de apoio para copos e canecas – Abajur – Relógio - Álcool gel 70º para assepsia das mãos - Desinfetante <strong>Lysoform®</strong> aerossol - Lenços de papel.<br><br><strong>Obra de arte:</strong><em> "Amadurecer II"</em> da artista plástica Ana Gomes (@artes.anagomes)</p>
-          </div>
-          <div class="col-sm-12 col-lg-6 p-0">
-            <div id="carouselsala01" class="carousel slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselsala01" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselsala01" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="images/sala01/1678910854930.jpg" class="adjustesImage d-block w-100">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/sala01/1678910854958.jpg" class="adjustesImage d-block w-100">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselsala01" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselsala01" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Próxima</span>
-              </button>
-            </div>
+      <section class="cd-single-item py-5 my-5">
+        <div class="cd-slider-wrapper">
+          <ul class="cd-slider">
+            <li class="selected"><img src="images/sala01/1678910854930.jpg"></li>
+            <li><img src="images/sala01/1678910854958.jpg"></li>
+          </ul>
+          <ul class="cd-slider-navigation">
+            <li><a href="#0" class="cd-prev inactive">Próximo</a></li>
+            <li><a href="#0" class="cd-next">Anterior</a></li>
+          </ul>
+          <a href="#0" class="cd-close">Fechar</a>
+        </div>
+    
+        <div class="cd-item-info">
+          <i class="bi bi-shop-window"></i>
+          <h2>Sala 1</h2>
+          <p class="description">Vaso com palmeira <em>raphis</em> - Persiana quebra-sol - Poltrona - Sofá de 02 lugares - Almofadas e manta - Mesa de apoio para notebook - Mesinha de apoio para copos e canecas – Abajur – Relógio - Álcool gel 70º para assepsia das mãos - Desinfetante <strong>Lysoform®</strong> aerossol - Lenços de papel.<br><br><strong>Obra de arte:</strong><em> "Amadurecer II"</em> da artista plástica Ana Gomes (@artes.anagomes)</p>
+          
+          <div class="text-center py-3">
+            <button class="py-2 px-4">
+              <i class="bi bi-whatsapp me-1"></i>
+              <h3>Fale com a Gente</h3>
+            </button>
           </div>
         </div>
+      </section>
 
-        <div class="row salas m-0 my-5 shadow-lg rounded">
-          <div class="col-sm-12 col-lg-6 p-0">
-            <div id="carouselsala02" class="carousel slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselsala02" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselsala02" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="images/sala02/1677790916145.jpg" class="adjustesImage d-block w-100">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/sala02/1678910855113.jpg" class="adjustesImage d-block w-100">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselsala02" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselsala02" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Próxima</span>
-              </button>
-            </div>
-          </div>
-          <div class="col-sm-12 col-lg-6 p-0">
-            <h2 class="titles">Sala 02</h2>
-            <p class="description">Vaso com planta <em>samiocuca</em> - Persiana quebra-sol – Poltrona - Sofá de 02 lugares – Divã - Almofadas e manta - Mesinha de apoio para copos e canecas - Abajur – Relógio - Álcool gel 70º para assepsia das mãos - Desinfetante aerossol - Lenços de papel.<br><br><strong>Obra de arte:</strong><em> "Amadurecer I"</em> da artista plástica Ana Gomes (@artes.anagomes)</p>
+      <section class="cd-single-item py-5 my-5">
+        <div class="cd-slider-wrapper">
+          <ul class="cd-slider">
+            <li class="selected"><img src="images/sala02/1677790916145.jpg"></li>
+            <li><img src="images/sala02/1678910855113.jpg"></li>
+          </ul>
+          <ul class="cd-slider-navigation">
+            <li><a href="#0" class="cd-prev inactive">Próximo</a></li>
+            <li><a href="#0" class="cd-next">Anterior</a></li>
+          </ul>
+          <a href="#0" class="cd-close">Fechar</a>
+        </div>
+    
+        <div class="cd-item-info">
+          <i class="bi bi-shop-window"></i>
+          <h2>Sala 2</h2>
+          <p class="description">Vaso com planta <em>samiocuca</em> - Persiana quebra-sol – Poltrona - Sofá de 02 lugares – Divã - Almofadas e manta - Mesinha de apoio para copos e canecas - Abajur – Relógio - Álcool gel 70º para assepsia das mãos - Desinfetante aerossol - Lenços de papel.<br><br><strong>Obra de arte:</strong><em> "Amadurecer I"</em> da artista plástica Ana Gomes (@artes.anagomes)</p>
+          
+          <div class="text-center py-3">
+            <button class="py-2 px-4">
+              <i class="bi bi-whatsapp me-1"></i>
+              <h3>Fale com a Gente</h3>
+            </button>
           </div>
         </div>
+      </section>
 
-        <div class="row salas m-0 shadow-lg my-5 rounded">
-          <div class="col-sm-12 col-lg-6 p-0">
-            <h2 class="titles">Sala 03</h2>
-            <p class="description">2 vasos com palmeiras <em>raphis</em> e <em>samiocuca</em> - Persiana quebra-sol – Poltrona - Sofá 03 lugares - Almofadas e manta - Mesa de trabalho com 02 gavetas e 02 cadeiras - Mesinha de apoio para copos e canecas – Tapete – Abajur – Relógio - Álcool gel 70º - Desinfetante aerossol - Lenços de papel – <strong>Banheiro privativo</strong><br><br><strong>Obras de arte:</strong> <em>"Inteligência Artificial I"</em> e <em>"Inteligência Artificial II"</em> da artista Ana Gomes (@artes.anagomes)</p>
-          </div>
-          <div class="col-sm-12 col-lg-6 p-0">
-            <div id="carouselsala03" class="carousel slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselsala03" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselsala03" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="images/sala03/1677790916173.jpg" class="adjustesImage d-block w-100">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/sala03/1678910855127.jpg" class="adjustesImage d-block w-100">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselsala03" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselsala03" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Próxima</span>
-              </button>
-            </div>
+      <section class="cd-single-item py-5 my-5">
+        <div class="cd-slider-wrapper">
+          <ul class="cd-slider">
+            <li class="selected"><img src="images/sala03/1677790916173.jpg"></li>
+            <li><img src="images/sala03/1678910855127.jpg"></li>
+          </ul>
+          <ul class="cd-slider-navigation">
+            <li><a href="#0" class="cd-prev inactive">Próximo</a></li>
+            <li><a href="#0" class="cd-next">Anterior</a></li>
+          </ul>
+          <a href="#0" class="cd-close">Fechar</a>
+        </div>
+    
+        <div class="cd-item-info">
+          <i class="bi bi-shop-window"></i>
+          <h2>Sala 3</h2>
+          <p class="description">2 vasos com palmeiras <em>raphis</em> e <em>samiocuca</em> - Persiana quebra-sol – Poltrona - Sofá 03 lugares - Almofadas e manta - Mesa de trabalho com 02 gavetas e 02 cadeiras - Mesinha de apoio para copos e canecas – Tapete – Abajur – Relógio - Álcool gel 70º - Desinfetante aerossol - Lenços de papel – <strong>Banheiro privativo</strong><br><br><strong>Obras de arte:</strong> <em>"Inteligência Artificial I"</em> e <em>"Inteligência Artificial II"</em> da artista Ana Gomes (@artes.anagomes)</p>
+          
+          <div class="text-center py-3">
+            <button class="py-2 px-4">
+              <i class="bi bi-whatsapp me-1"></i>
+              <h3>Fale com a Gente</h3>
+            </button>
           </div>
         </div>
+      </section>
 
-        <div class="row salas m-0 my-5 shadow-lg rounded">
-          <div class="col-sm-12 col-lg-6 p-0">
-            <div id="carouselsala04" class="carousel slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselsala04" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="images/sala04/1677790916240.jpg" class="adjustesImage d-block w-100">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselsala04" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselsala04" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Próxima</span>
-              </button>
-            </div>
-          </div>
-          <div class="col-sm-12 col-lg-6 p-0">
-            <h2 class="titles">Sala 04</h2>
-            <p class="description">Vaso com planta <em>samiocuca</em> - Poltrona de couro - Sofá de 03 lugares - Almofadas e manta - Mesa de apoio para notebook - Mesa de apoio para copos e canecas com chaleira elétrica – Abajur – Relógio - Álcool gel 70º para assepsia das mãos - Desinfetante aerossol - Lenços de papel<br><br><strong>Obra de arte:</strong> <em>"Levada"</em> da artista plástica Ana Gomes (@artes.anagomes)</p>
+      <section class="cd-single-item py-5 my-5">
+        <div class="cd-slider-wrapper">
+          <ul class="cd-slider">
+            <li class="selected"><img src="images/sala04/1677790916240.jpg"></li>
+          </ul>
+          <ul class="cd-slider-navigation">
+            <li><a href="#0" class="cd-prev inactive">Próximo</a></li>
+            <li><a href="#0" class="cd-next">Anterior</a></li>
+          </ul>
+          <a href="#0" class="cd-close">Fechar</a>
+        </div>
+    
+        <div class="cd-item-info">
+          <i class="bi bi-shop-window"></i>
+          <h2>Sala 4</h2>
+          <p class="description">Vaso com planta <em>samiocuca</em> - Poltrona de couro - Sofá de 03 lugares - Almofadas e manta - Mesa de apoio para notebook - Mesa de apoio para copos e canecas com chaleira elétrica – Abajur – Relógio - Álcool gel 70º para assepsia das mãos - Desinfetante aerossol - Lenços de papel<br><br><strong>Obra de arte:</strong> <em>"Levada"</em> da artista plástica Ana Gomes (@artes.anagomes)</p>
+          
+          <div class="text-center py-3">
+            <button class="py-2 px-4">
+              <i class="bi bi-whatsapp me-1"></i>
+              <h3>Fale com a Gente</h3>
+            </button>
           </div>
         </div>
-
-        <div class="row salas m-0 shadow-lg my-5 rounded">
-          <div class="col-sm-12 col-lg-6 p-0">
-            <h2 class="titles">Sala 05</h2>
-            <p class="description">Vaso com palmeira <em>raphis</em> - Persiana quebra-sol – Poltrona - Sofá de 02 lugares - Almofadas e manta - Mesinha de apoio para copos e canecas – Abajur - Relógio - Álcool gel 70º para assepsia das mãos - Desinfetante aerossol - Lenços de papel</p>
-          </div>
-          <div class="col-sm-12 col-lg-6 p-0">
-            <div id="carouselsala05" class="carousel slide">
-
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselsala05" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="images/sala05/1677790916199.jpg" class="adjustesImage d-block w-100">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselsala05" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselsala05" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Próxima</span>
-              </button>
-
-            </div>
+      </section>
+      
+      <section class="cd-single-item py-5 my-5">
+        <div class="cd-slider-wrapper">
+          <ul class="cd-slider">
+            <li class="selected"><img src="images/sala05/1677790916199.jpg"></li>
+          </ul>
+          <ul class="cd-slider-navigation">
+            <li><a href="#0" class="cd-prev inactive">Próximo</a></li>
+            <li><a href="#0" class="cd-next">Anterior</a></li>
+          </ul>
+          <a href="#0" class="cd-close">Fechar</a>
+        </div>
+    
+        <div class="cd-item-info">
+          <i class="bi bi-shop-window"></i>
+          <h2>Sala 5</h2>
+          <p class="description">Vaso com palmeira <em>raphis</em> - Persiana quebra-sol – Poltrona - Sofá de 02 lugares - Almofadas e manta - Mesinha de apoio para copos e canecas – Abajur - Relógio - Álcool gel 70º para assepsia das mãos - Desinfetante aerossol - Lenços de papel</p>
+          
+          <div class="text-center py-3">
+            <button class="py-2 px-4">
+              <i class="bi bi-whatsapp me-1"></i>
+              <h3>Fale com a Gente</h3>
+            </button>
           </div>
         </div>
+      </section>
 
-        <div class="row salas m-0 my-5 shadow-lg rounded">
-          <div class="col-sm-12 p-0 text-center">
-            <h2 class="titles">Sala 06</h2>
-            <p class="description">Vaso com planta <em>samiocuca</em> - Persiana quebra-sol – Poltrona - Sofá de 03 lugares - Almofadas e manta - Mesa de apoio para notebook - Tripé para celular - Móvel de apoio com livros, lápis de cor, giz de cera, prancheta e papel, moringa para água, garrafa térmica, canecas de vidro e copos descartáveis - <strong>Cama japonesa para trabalhos corporais, podendo ser utilizado como divã</strong> - Banquinho de madeira  - Pia com saboneteira e papeleira – Abajur – Relógio - Álcool gel 70º para assepsia das mãos - Desinfetante aerossol - Lenços de papel<br><br><strong>Obras de arte:</strong> <em>"Fênix"</em> da artista plástica Ana Bittar (@portalanabittar); Tríade: <em>"Razão", "Emoção" e "Origem"</em> da artista plástica Ana Gomes (@artes.anagomes); e <em>"Tecendo Aprendizados"</em> da artista plástica Ivone Ramos (@ivoneoramos)</p>
-          </div>
-          <div class="col-12 p-0">
-            <div id="carouselsala06" class="carousel slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselsala06" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselsala06" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="images/sala06/1677790916214.jpg" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/sala06/1677790916229.jpg" class="d-block w-100">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselsala06" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselsala06" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Próxima</span>
-              </button>
-            </div>
+      <section class="cd-single-item py-5 my-5">
+        <div class="cd-slider-wrapper">
+          <ul class="cd-slider">
+            <li class="selected"><img src="images/sala06/1677790916214.jpg"></li>
+            <li><img src="images/sala06/1677790916229.jpg"></li>
+          </ul>
+          <ul class="cd-slider-navigation">
+            <li><a href="#0" class="cd-prev inactive">Próximo</a></li>
+            <li><a href="#0" class="cd-next">Anterior</a></li>
+          </ul>
+          <a href="#0" class="cd-close">Fechar</a>
+        </div>
+    
+        <div class="cd-item-info">
+          <i class="bi bi-shop-window"></i>
+          <h2>Sala 6</h2>
+          <p class="description">Vaso com planta <em>samiocuca</em> - Persiana quebra-sol – Poltrona - Sofá de 03 lugares - Almofadas e manta - Mesa de apoio para notebook - Tripé para celular - Móvel de apoio com livros, lápis de cor, giz de cera, prancheta e papel, moringa para água, garrafa térmica, canecas de vidro e copos descartáveis - <strong>Cama japonesa para trabalhos corporais, podendo ser utilizado como divã</strong> - Banquinho de madeira  - Pia com saboneteira e papeleira – Abajur – Relógio - Álcool gel 70º para assepsia das mãos - Desinfetante aerossol - Lenços de papel<br><br><strong>Obras de arte:</strong> <em>"Fênix"</em> da artista plástica Ana Bittar (@portalanabittar); Tríade: <em>"Razão", "Emoção" e "Origem"</em> da artista plástica Ana Gomes (@artes.anagomes); e <em>"Tecendo Aprendizados"</em> da artista plástica Ivone Ramos (@ivoneoramos)</p>
+          
+          <div class="text-center py-3">
+            <button class="py-2 px-4">
+              <i class="bi bi-whatsapp me-1"></i>
+              <h3>Fale com a Gente</h3>
+            </button>
           </div>
         </div>
-
       </section>
     </div>
 
-    <div class="container divisoriasGradiente p-5">
+    <div class="container beneficios p-5">
       <h2 class="titles">Benefícios</h2>
 
       <div class="row py-5">
@@ -289,9 +292,9 @@
       </div>
     </div>
 
-    <div class="avaliacoes container p-5">
+    <div class="avaliacoes container p-5 text-center">
       <div class="row">
-        <div class="col-sm-12 col-lg-6">
+        <div class="col-sm-12 col-lg-4">
           <h3>Bárbara</h3>
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>
@@ -300,7 +303,16 @@
           <i class="bi bi-star-fill"></i>
           <p><em>Um lugar para profissionais da saúde trabalharem se sentindo em casa! Perfeito! Rizoma faz parte da minha carreira!</em></p>
         </div>
-        <div class="col-sm-12 col-lg-6">
+        <div class="col-sm-12 col-lg-4">
+          <h3>Juliana</h3>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <p><em>É um prazer trabalhar e receber meus pacientes neste espaço tão acolhedor, com uma equipe tão solícita e parceira. Feliz de fazer parte deste espaço tão rico!</em></p>
+        </div>
+        <div class="col-sm-12 col-lg-4">
           <h3>Juliana</h3>
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>
@@ -342,5 +354,9 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script src="gallery-files/js/jquery-2.1.1.js"></script>
+    <script src="gallery-files/js/jquery.mobile.min.js"></script>
+    <script src="gallery-files/js/main.js"></script> <!-- Resource jQuery -->
   </body>
 </html>
