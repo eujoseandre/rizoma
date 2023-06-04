@@ -39,7 +39,8 @@ body{
 }
 
 .navbar {
-    background-color: #fff;
+
+    background-color: #ffffff;
 
     li a {
         text-decoration: none !important;
@@ -51,7 +52,7 @@ body{
         font-family: 'Manrope', sans-serif;
         text-decoration: none;
         padding-bottom: 5px;
-        border-bottom: 2px solid #fff;
+        border-bottom: 2px solid #ffffff;
         font-weight: 500;
     }
     
@@ -66,10 +67,10 @@ body{
     
 .banner-principal {
     background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
-    //-moz-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
-    //-webkit-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
-    //-ms-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
-    //-o-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+    -moz-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+    -webkit-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+    -ms-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+    -o-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
     filter: brightness(0.9);
     display: flex;
     flex-direction: column;
