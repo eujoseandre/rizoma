@@ -1,27 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: #fff;
 
     strong {
         font-weight: 800;
     }
+
+    em {
+        font-style: italic;
+    }
 }
 
 .menutopo {
-
-    opacity: 70%;
+    background-color: #fff;
 
     i {
         font-size: 14px;
-        color: #565656;
+        color: #84C2E4;
+        opacity: 80%;
     }
     p {
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
         line-height: 22px;
-        color: #565656;
+        font-weight: 600;
+        color: #037549;
         padding: 0;
         margin: 0;
         display: inline;
+        opacity: 80%;
     }
 
     .container {
@@ -30,9 +39,12 @@ body{
 }
 
 .navbar {
+    background-color: #fff;
+
     li a {
         text-decoration: none !important;
         color: #565656;
+        font-weight: 600;
     }
 
     .nav-item {
@@ -41,7 +53,6 @@ body{
         padding-bottom: 5px;
         border-bottom: 2px solid #fff;
         font-weight: 500;
-        transform: scale(1.0);
     }
     
     .nav-item:hover{
@@ -51,32 +62,37 @@ body{
        }
     }
     
-}
-
+}  
+    
 .banner-principal {
-    background-image: url(../../images/1678910854930.jpg);
-    -moz-background-image: url(../../images/1678910854930.jpg);
-    -webkit-background-image: url(../../images/1678910854930.jpg);
-    -ms-background-image: url(../../images/1678910854930.jpg);
-    -o-background-image: url(../../images/1678910854930.jpg);
+    background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+    //-moz-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+    //-webkit-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+    //-ms-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+    //-o-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+    filter: brightness(0.9);
     display: flex;
     flex-direction: column;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 450px;
+    text-align: center;
+    justify-content: center;
 }
+
 
 .divAntesala {
 
-    border-bottom: 1px solid #d1d1d1;
+    background-color: #ECFDF5;
+    //border-bottom: 1px solid #d1d1d1;
     
     h2 {
         font-family: 'Manrope', sans-serif;
         font-size: 34px;
         line-height: 42px;
         font-weight: 600;
-        color: #565656;
+        color: #037549;
         margin-bottom: 20px;
     }
 
@@ -89,7 +105,7 @@ body{
         font-size: 16px;
         line-height: 22px;
         color: #565656;
-        opacity: 60%;
+        opacity: 80%;
     }
 
     img {
@@ -98,65 +114,17 @@ body{
     }
 }
 
-.salas{
-
+.salas {
     background-color: #fff;
 
-
-    h2 {
-        font-family: 'Manrope', sans-serif;
-        font-size: 28px;
-        font-weight: 600;
-        color: #565656;
-        margin-left: 0px;
-        margin-top: 10px;
-    }
-
-    p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        color: #565656;
-        margin-top: 15px;
-        opacity: 70%;
-    }
-
-    i {
-        font-size: 35px;
-        color: #9FBF54;
-    }
-
-    button {
-        text-align: center;
-        color: #fff;
-        background-color: #84C2E4;
-        border: none;
-        border-radius: 20px;
-
-        h3{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 16px;
-        color: #fff;
-        display: inline;
-        }
-
-        i{
-            color: #fff;
-            font-size: 16px;
-        }
-    }
-
-    button:hover{
-        background-color: #9FBF54;
-    }
-
-    .divisorias{
+    .divisoria {
 
         h2 {
             font-family: 'Manrope', sans-serif;
             font-size: 34px;
             line-height: 42px;
-            font-weight: 600;
-            color: #9FBF54;
+            font-weight: 700;
+            color: #037549;
             text-align: center;
             margin-bottom: 20px;
         }
@@ -169,26 +137,80 @@ body{
             opacity: 60%;
         }
     }
+
+    h2 {
+        font-family: 'Manrope', sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        color: #037549;
+        margin-top: 15px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: #565656;
+        margin-top: 15px;
+        opacity: 80%;
+    }
+
+    i {
+        font-size: 35px;
+        color: #84C2E4;
+    }
+
+    button {
+        text-align: center;
+        background-color: #9FBF54;
+        border: 2px solid #9FBF54;
+        border-radius: 20px;
+        width: 210px;
+        height: 40px;
+        margin-top: 40px;
+
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            color: #fff;
+            display: inline;
+            margin-left: 5px;
+        }
+
+        i{
+            color: #fff;
+            font-size: 16px;
+        }
+    }
+
+    button:hover{
+        background-color: #84C2E4;
+        border-color: #84C2E4;
+    }
+
+    .cd-single-item {
+        padding-bottom: 100px;
+    }
 }
 
 .beneficios {
-
-    background-color: #fff;
-    margin-top: 180px;
+    background: rgb(254,254,254);
+    background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(236,253,245,1) 100%);
     text-align: center;
+    margin-top: 180px;
 
     i {
-        color: #9FBF54;
+        color: #84C2E4;
         font-size: 40px;
     }
 
     h3 {
         font-family: 'Manrope', sans-serif;
-        font-size: 20px;
-        line-height: 24px;
-        font-weight: 800;
-        color: #565656;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 500;
+        color: #037549;
         padding: 20px;
+        opacity: 80%;
     }
 
 
@@ -196,8 +218,8 @@ body{
         font-family: 'Manrope', sans-serif;
         font-size: 34px;
         line-height: 42px;
-        font-weight: 600;
-        color: #9FBF54;
+        font-weight: 700;
+        color: #037549;
         text-align: center;
         margin-bottom: 20px;
     }
@@ -208,13 +230,12 @@ body{
         color: #565656;
         text-align: center;
         padding-bottom: 20px;
-        opacity: 60%;
+        opacity: 80%;
     }
 }
 
 
 .avaliacoes{
-    border-top: 1px solid #d1d1d1;
     border-bottom: 1px solid #d1d1d1;
     h3{
         font-family: 'Manrope', sans-serif;
@@ -264,5 +285,11 @@ body{
 @media screen and (min-width: 0px) and (max-width: 768px) {
 	.menutopo{
         display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1023px) {
+    .beneficios {
+        margin-top: 0px;
     }
 }

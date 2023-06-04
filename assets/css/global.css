@@ -1,33 +1,47 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fff;
 }
 body strong {
   font-weight: 800;
 }
+body em {
+  font-style: italic;
+}
 
 .menutopo {
-  opacity: 70%;
+  background-color: #fff;
 }
 .menutopo i {
   font-size: 14px;
-  color: #565656;
+  color: #84C2E4;
+  opacity: 80%;
 }
 .menutopo p {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 22px;
-  color: #565656;
+  font-weight: 600;
+  color: #037549;
   padding: 0;
   margin: 0;
   display: inline;
+  opacity: 80%;
 }
 .menutopo .container {
   border-bottom: 1px solid #d1d1d1;
 }
 
+.navbar {
+  background-color: #fff;
+}
 .navbar li a {
   text-decoration: none !important;
   color: #565656;
+  font-weight: 600;
 }
 .navbar .nav-item {
   font-family: "Manrope", sans-serif;
@@ -35,7 +49,6 @@ body strong {
   padding-bottom: 5px;
   border-bottom: 2px solid #fff;
   font-weight: 500;
-  transform: scale(1);
 }
 .navbar .nav-item:hover {
   border-bottom: 2px solid #84C2E4;
@@ -45,28 +58,27 @@ body strong {
 }
 
 .banner-principal {
-  background-image: url(../../images/1678910854930.jpg);
-  -moz-background-image: url(../../images/1678910854930.jpg);
-  -webkit-background-image: url(../../images/1678910854930.jpg);
-  -ms-background-image: url(../../images/1678910854930.jpg);
-  -o-background-image: url(../../images/1678910854930.jpg);
+  background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132, 194, 228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+  filter: brightness(0.9);
   display: flex;
   flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 450px;
+  text-align: center;
+  justify-content: center;
 }
 
 .divAntesala {
-  border-bottom: 1px solid #d1d1d1;
+  background-color: #ECFDF5;
 }
 .divAntesala h2 {
   font-family: "Manrope", sans-serif;
   font-size: 34px;
   line-height: 42px;
   font-weight: 600;
-  color: #565656;
+  color: #037549;
   margin-bottom: 20px;
 }
 .divAntesala strong {
@@ -77,7 +89,7 @@ body strong {
   font-size: 16px;
   line-height: 22px;
   color: #565656;
-  opacity: 60%;
+  opacity: 80%;
 }
 .divAntesala img {
   width: 100px;
@@ -87,55 +99,16 @@ body strong {
 .salas {
   background-color: #fff;
 }
-.salas h2 {
-  font-family: "Manrope", sans-serif;
-  font-size: 28px;
-  font-weight: 600;
-  color: #565656;
-  margin-left: 0px;
-  margin-top: 10px;
-}
-.salas p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  color: #565656;
-  margin-top: 15px;
-  opacity: 70%;
-}
-.salas i {
-  font-size: 35px;
-  color: #9FBF54;
-}
-.salas button {
-  text-align: center;
-  color: #fff;
-  background-color: #84C2E4;
-  border: none;
-  border-radius: 20px;
-}
-.salas button h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  color: #fff;
-  display: inline;
-}
-.salas button i {
-  color: #fff;
-  font-size: 16px;
-}
-.salas button:hover {
-  background-color: #9FBF54;
-}
-.salas .divisorias h2 {
+.salas .divisoria h2 {
   font-family: "Manrope", sans-serif;
   font-size: 34px;
   line-height: 42px;
-  font-weight: 600;
-  color: #9FBF54;
+  font-weight: 700;
+  color: #037549;
   text-align: center;
   margin-bottom: 20px;
 }
-.salas .divisorias p {
+.salas .divisoria p {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 22px;
@@ -143,30 +116,77 @@ body strong {
   text-align: center;
   opacity: 60%;
 }
+.salas h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: #037549;
+  margin-top: 15px;
+}
+.salas p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #565656;
+  margin-top: 15px;
+  opacity: 80%;
+}
+.salas i {
+  font-size: 35px;
+  color: #84C2E4;
+}
+.salas button {
+  text-align: center;
+  background-color: #9FBF54;
+  border: 2px solid #9FBF54;
+  border-radius: 20px;
+  width: 210px;
+  height: 40px;
+  margin-top: 40px;
+}
+.salas button h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  display: inline;
+  margin-left: 5px;
+}
+.salas button i {
+  color: #fff;
+  font-size: 16px;
+}
+.salas button:hover {
+  background-color: #84C2E4;
+  border-color: #84C2E4;
+}
+.salas .cd-single-item {
+  padding-bottom: 100px;
+}
 
 .beneficios {
-  background-color: #fff;
-  margin-top: 180px;
+  background: rgb(254, 254, 254);
+  background: linear-gradient(180deg, rgb(254, 254, 254) 0%, rgb(236, 253, 245) 100%);
   text-align: center;
+  margin-top: 180px;
 }
 .beneficios i {
-  color: #9FBF54;
+  color: #84C2E4;
   font-size: 40px;
 }
 .beneficios h3 {
   font-family: "Manrope", sans-serif;
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 800;
-  color: #565656;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #037549;
   padding: 20px;
+  opacity: 80%;
 }
 .beneficios h2 {
   font-family: "Manrope", sans-serif;
   font-size: 34px;
   line-height: 42px;
-  font-weight: 600;
-  color: #9FBF54;
+  font-weight: 700;
+  color: #037549;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -177,11 +197,10 @@ body strong {
   color: #565656;
   text-align: center;
   padding-bottom: 20px;
-  opacity: 60%;
+  opacity: 80%;
 }
 
 .avaliacoes {
-  border-top: 1px solid #d1d1d1;
   border-bottom: 1px solid #d1d1d1;
 }
 .avaliacoes h3 {
@@ -227,6 +246,11 @@ body strong {
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .menutopo {
     display: none;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 1023px) {
+  .beneficios {
+    margin-top: 0px;
   }
 }
 

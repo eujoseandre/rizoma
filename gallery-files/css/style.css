@@ -251,12 +251,10 @@ img {
 }
 
 .cd-item-info {
-  padding: 40px 5%;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
-
-  .cd-item-info h2, .cd-item-info p {
-    max-width: 480px;
-  }
 
 @media only screen and (min-width: 1024px) {
     .cd-item-info {
@@ -264,6 +262,6 @@ img {
       width: 50%;
       top: 0;
       right: 0;
-      padding: 45px 30px 0;
+      padding: 0px 30px;
       margin: 0; } 
 }
