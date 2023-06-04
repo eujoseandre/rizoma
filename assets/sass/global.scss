@@ -83,7 +83,6 @@ body{
     justify-content: center;
 }
 
-
 .divAntesala {
 
     background-color: #ECFDF5;
@@ -117,7 +116,7 @@ body{
 }
 
 .salas {
-    background-color: #fff;
+    background-color: #ffffff;
 
     .divisoria {
 
@@ -236,26 +235,67 @@ body{
     }
 }
 
-
 .avaliacoes{
     border-bottom: 1px solid #d1d1d1;
-    h3{
-        font-family: 'Manrope', sans-serif;
-        font-size: 26px;
-        font-weight: 600;
-        color: #84C2E4;
-        margin: 10px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .v1, .v2, .v3 {
+
+        opacity: 70%;
+        cursor: pointer;
+
+        h3{
+            font-family: 'Manrope', sans-serif;
+            font-size: 22px;
+            font-weight: 700;
+            color: #565656;
+            margin: 10px 0px;
+        }
+    
+        i{
+            color: #565656;
+            font-size: 14px;
+        }
+    
+        p{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            line-height: 17px;
+            color: #565656;
+            opacity: 80%;
+            margin: 10px 0px;
+        }
     }
 
-    i{
-        color: orangered;
+    .v1:hover{
+        opacity: 100%;
+        i {
+            color: orangered;
+        }
+        h3 {
+            color: #037549;
+        }
     }
 
-    p{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        color: #565656;
-        margin: 10px 0px;
+    .v2:hover{
+        opacity: 100%;
+        i {
+            color: orangered;
+        }
+        h3 {
+            color: #037549;
+        }
+    }
+
+    .v3:hover{
+        opacity: 100%;
+        i {
+            color: orangered;
+        }
+        h3 {
+            color: #037549;
+        }
     }
 }
 

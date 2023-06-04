@@ -101,7 +101,7 @@ body em {
 }
 
 .salas {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .salas .divisoria h2 {
   font-family: "Manrope", sans-serif;
@@ -206,22 +206,58 @@ body em {
 
 .avaliacoes {
   border-bottom: 1px solid #d1d1d1;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.avaliacoes h3 {
+.avaliacoes .v1, .avaliacoes .v2, .avaliacoes .v3 {
+  opacity: 70%;
+  cursor: pointer;
+}
+.avaliacoes .v1 h3, .avaliacoes .v2 h3, .avaliacoes .v3 h3 {
   font-family: "Manrope", sans-serif;
-  font-size: 26px;
-  font-weight: 600;
-  color: #84C2E4;
-  margin: 10px 0px;
-}
-.avaliacoes i {
-  color: orangered;
-}
-.avaliacoes p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 22px;
+  font-weight: 700;
   color: #565656;
   margin: 10px 0px;
+}
+.avaliacoes .v1 i, .avaliacoes .v2 i, .avaliacoes .v3 i {
+  color: #565656;
+  font-size: 14px;
+}
+.avaliacoes .v1 p, .avaliacoes .v2 p, .avaliacoes .v3 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  color: #565656;
+  opacity: 80%;
+  margin: 10px 0px;
+}
+.avaliacoes .v1:hover {
+  opacity: 100%;
+}
+.avaliacoes .v1:hover i {
+  color: orangered;
+}
+.avaliacoes .v1:hover h3 {
+  color: #037549;
+}
+.avaliacoes .v2:hover {
+  opacity: 100%;
+}
+.avaliacoes .v2:hover i {
+  color: orangered;
+}
+.avaliacoes .v2:hover h3 {
+  color: #037549;
+}
+.avaliacoes .v3:hover {
+  opacity: 100%;
+}
+.avaliacoes .v3:hover i {
+  color: orangered;
+}
+.avaliacoes .v3:hover h3 {
+  color: #037549;
 }
 
 .rodape {
