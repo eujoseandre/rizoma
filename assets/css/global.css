@@ -135,10 +135,6 @@ body em {
   margin-top: 15px;
   opacity: 80%;
 }
-.salas i {
-  font-size: 35px;
-  color: #84C2E4;
-}
 .salas button {
   text-align: center;
   background-color: #9FBF54;
@@ -175,7 +171,10 @@ body em {
 }
 .beneficios i {
   color: #84C2E4;
-  font-size: 40px;
+  font-size: 30px;
+  padding: 25px;
+  background-color: #f2f8fb;
+  border-radius: 40px;
 }
 .beneficios h3 {
   font-family: "Manrope", sans-serif;
@@ -185,6 +184,7 @@ body em {
   color: #037549;
   padding: 20px;
   opacity: 80%;
+  margin-top: 20px;
 }
 .beneficios h2 {
   font-family: "Manrope", sans-serif;
@@ -297,7 +297,7 @@ body em {
     margin-top: 0px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .banner-principal .imagem-banner {
     height: 100%;
   }
