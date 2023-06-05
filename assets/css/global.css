@@ -12,24 +12,40 @@ body em {
   font-style: italic;
 }
 
+.whatsapp a {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
 .menutopo {
   background-color: #ffffff;
+  text-transform: uppercase;
 }
 .menutopo i {
   font-size: 14px;
   color: #84C2E4;
-  opacity: 80%;
+  opacity: 70%;
 }
 .menutopo p {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 12px;
+  line-height: 18px;
   font-weight: 600;
   color: #565656;
   padding: 0;
   margin: 0;
   display: inline;
-  opacity: 80%;
+  opacity: 70%;
 }
 .menutopo .container {
   border-bottom: 1px solid #d1d1d1;
@@ -321,26 +337,27 @@ body em {
 
 .rodape {
   font-family: "Montserrat", sans-serif;
+  text-align: left;
 }
-.rodape .telefone strong {
+.rodape .info strong {
   font-weight: 600;
 }
-.rodape .telefone h1 {
+.rodape .info h1 {
   font-size: 32px;
   font-weight: 600;
   color: #8CACDA;
 }
-.rodape .telefone h1 i {
+.rodape .info h1 i {
   color: #84C2E4;
   padding-right: 10px;
 }
-.rodape .telefone h2 {
+.rodape .info h2 {
   color: #565656;
   font-size: 15px;
   line-height: 21px;
   font-weight: 400;
 }
-.rodape .telefone h3 {
+.rodape .info h3 {
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 13px;
@@ -349,7 +366,7 @@ body em {
   text-transform: uppercase;
   color: #8CACDA;
 }
-.rodape .telefone p {
+.rodape .info p {
   margin-top: 30px;
   font-size: 15px;
   font-weight: 500;
@@ -361,13 +378,16 @@ body em {
   border-top: 1px solid #d1d1d1;
 }
 .rodape .copyright p {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 300;
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .menutopo {
     display: none;
+  }
+  .rodape {
+    text-align: center;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 1023px) {
