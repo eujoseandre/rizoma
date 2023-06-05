@@ -27,7 +27,7 @@ body{
         font-size: 14px;
         line-height: 22px;
         font-weight: 600;
-        color: #037549;
+        color: #565656;
         padding: 0;
         margin: 0;
         display: inline;
@@ -63,6 +63,10 @@ body{
         color: #84C2E4;
        }
     }
+
+    .navbar-toggler {
+        border: none;
+    }
     
 }  
     
@@ -85,7 +89,7 @@ body{
 
 .divAntesala {
 
-    background-color: #ECFDF5;
+    background-color: #f2f8fb;
     //border-bottom: 1px solid #d1d1d1;
     
     h2 {
