@@ -15,7 +15,6 @@ body{
 }
 
 .whatsapp {
-
     a {
         position:fixed;
         width:60px;
@@ -389,6 +388,10 @@ body{
     font-family: 'Montserrat', sans-serif;
     text-align: left;
 
+    img {
+        width: 30%;
+    }
+
     .info {
 
         strong {
@@ -450,6 +453,10 @@ body{
 
     .rodape {
         text-align: center;
+
+        img {
+            width: 50%;
+        }
     }
 }
 

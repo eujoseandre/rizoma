@@ -339,6 +339,9 @@ body em {
   font-family: "Montserrat", sans-serif;
   text-align: left;
 }
+.rodape img {
+  width: 30%;
+}
 .rodape .info strong {
   font-weight: 600;
 }
@@ -388,6 +391,9 @@ body em {
   }
   .rodape {
     text-align: center;
+  }
+  .rodape img {
+    width: 50%;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 1023px) {
