@@ -60,7 +60,7 @@ body em {
   border: none;
 }
 
-.banner-principal {
+.banner-principal .imagem-banner {
   background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132, 194, 228, 0.7)), url(../../images/sala03/1678910855127.jpg);
   -moz-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132, 194, 228, 0.7)), url(../../images/sala03/1678910855127.jpg);
   -webkit-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132, 194, 228, 0.7)), url(../../images/sala03/1678910855127.jpg);
@@ -73,8 +73,6 @@ body em {
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 450px;
-  text-align: center;
-  justify-content: center;
 }
 
 .divAntesala {
@@ -297,6 +295,11 @@ body em {
 @media screen and (min-width: 0px) and (max-width: 1023px) {
   .beneficios {
     margin-top: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner-principal .imagem-banner {
+    height: 100%;
   }
 }
 

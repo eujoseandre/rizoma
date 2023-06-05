@@ -71,20 +71,21 @@ body{
 }  
     
 .banner-principal {
-    background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
-    -moz-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
-    -webkit-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
-    -ms-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
-    -o-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
-    filter: brightness(0.9);
-    display: flex;
-    flex-direction: column;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 450px;
-    text-align: center;
-    justify-content: center;
+    .imagem-banner {
+        background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+        -moz-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+        -webkit-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+        -ms-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+        -o-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+        filter: brightness(0.9);
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+        //background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 450px;
+    }
 }
 
 .divAntesala {
@@ -340,5 +341,13 @@ body{
 @media screen and (min-width: 0px) and (max-width: 1023px) {
     .beneficios {
         margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner-principal {
+        .imagem-banner {
+            height: 100%;
+        }
     }
 }
