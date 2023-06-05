@@ -57,17 +57,14 @@ body em {
 .navbar li a {
   text-decoration: none !important;
   color: #565656;
-  font-weight: 600;
+  font-weight: 500;
+  opacity: 80%;
 }
 .navbar .nav-item {
   font-family: "Manrope", sans-serif;
   text-decoration: none;
   padding-bottom: 5px;
-  border-bottom: 2px solid #ffffff;
   font-weight: 500;
-}
-.navbar .nav-item:hover {
-  border-bottom: 2px solid #84C2E4;
 }
 .navbar .nav-item:hover a {
   color: #84C2E4;

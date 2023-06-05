@@ -64,19 +64,18 @@ body{
     li a {
         text-decoration: none !important;
         color: #565656;
-        font-weight: 600;
+        font-weight: 500;
+        opacity: 80%;
     }
 
     .nav-item {
         font-family: 'Manrope', sans-serif;
         text-decoration: none;
         padding-bottom: 5px;
-        border-bottom: 2px solid #ffffff;
         font-weight: 500;
     }
     
     .nav-item:hover{
-       border-bottom: 2px solid #84C2E4;
        a {
         color: #84C2E4;
        }
