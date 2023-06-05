@@ -90,7 +90,10 @@ body{
 
 .divAntesala {
     background-color: #EFF6FA;
-    //border-bottom: 1px solid #d1d1d1;
+    
+    .container {
+        border-bottom: 1px solid #d1d1d1;
+    }
     
     h2 {
         font-family: 'Manrope', sans-serif;
@@ -162,11 +165,11 @@ body{
     button {
         text-align: center;
         background-color: #9FBF54;
-        border: 2px solid #9FBF54;
         border-radius: 20px;
         width: 220px;
         height: 40px;
         margin-top: 40px;
+        border: none;
 
         h3 {
             font-family: 'Montserrat', sans-serif;
@@ -178,7 +181,7 @@ body{
             text-transform: uppercase;
         }
 
-        i{
+        i {
             color: #fff;
             font-size: 16px;
         }
@@ -186,7 +189,6 @@ body{
 
     button:hover{
         background-color: #84C2E4;
-        border-color: #84C2E4;
     }
 
     .cd-single-item {
@@ -212,7 +214,6 @@ body{
         line-height: 58px;
         font-weight: 500;
         color: #565656;
-        text-align: left;
         margin-top: 30px;
         margin-bottom: 50px;
     }
@@ -236,29 +237,73 @@ body{
         text-align: center;
         margin-bottom: 50px;
     }
+
+    .left {
+        text-align: left;
+
+        p {
+            text-align: left;
+        }
+
+        .btn-beneficios {
+            text-align: center;
+            background-color: #9FBF54;
+            border-radius: 20px;
+            border: none;
+            width: 220px;
+            height: 40px;
+            margin-bottom: 80px;
+    
+            h4 {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+                font-weight: 700;
+                color: #fff;
+                display: inline;
+                margin-left: 5px;
+                text-transform: uppercase;
+            }
+    
+            i {
+                color: #fff;
+                font-size: 16px;
+                padding: 0px;
+                background-color: inherit;
+                border-radius: 0px;
+            }
+        }
+
+        .btn-beneficios:hover{
+            background-color: #84C2E4;
+        }
+    
+    }
 }
 
-.avaliacoes{
-    border-bottom: 1px solid #d1d1d1;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.avaliacoes {
+    background-color: #f2f8fb;
+
+    .container {
+        border-bottom: 1px solid #d1d1d1;
+    }
 
     .v1, .v2, .v3 {
-
-        opacity: 70%;
         cursor: pointer;
+        border: none;
 
         h3{
             font-family: 'Manrope', sans-serif;
             font-size: 22px;
             font-weight: 700;
             color: #565656;
-            margin: 10px 0px;
+            margin: 5px 0px;
+            opacity: 80%;
         }
     
         i{
             color: #565656;
             font-size: 14px;
+            opacity: 80%;
         }
     
         p{
@@ -268,65 +313,113 @@ body{
             color: #565656;
             opacity: 80%;
             margin: 10px 0px;
+            opacity: 80%;
         }
     }
 
     .v1:hover{
         opacity: 100%;
-        background-color: #f2f8fb;
+        filter: brightness(1.0);
         i {
-            color: orangered;
+            color: #84C2E4;
+            opacity: 100%;
         }
         h3 {
-            color: #037549;
+            color: #8CACDA;
+            opacity: 100%;
+        }
+        p {
+            opacity: 100%;
         }
     }
 
     .v2:hover{
         opacity: 100%;
-        background-color: #f2f8fb;
+        filter: brightness(1.0);
         i {
-            color: orangered;
+            color: #84C2E4;
+            opacity: 100%;
         }
         h3 {
-            color: #037549;
+            color: #8CACDA;
+            opacity: 100%;
+        }
+        p {
+            opacity: 100%;
         }
     }
 
     .v3:hover{
         opacity: 100%;
-        background-color: #f2f8fb;
+        filter: brightness(1.0);
         i {
-            color: orangered;
+            color: #84C2E4;
+            opacity: 100%;
         }
         h3 {
-            color: #037549;
+            color: #8CACDA;
+            opacity: 100%;
+        }
+        p {
+            opacity: 100%;
         }
     }
 }
 
 .rodape {
-    background-color: #769D6F;
-    font-family: 'Manrope', sans-serif;
-    color: #fff;
-    p {
-        margin: 0;
-        margin-top: 18px;
-        font-size: 16px;
-        font-weight: 400;
-    }
+    font-family: 'Montserrat', sans-serif;
 
-    h3{
-        margin-top: 40px;
-        font-size: 20px;
-        font-weight: 600;
-        padding-bottom: 8px;
-        border-bottom: solid 2px #fff;
-        width: 30%;
+    .telefone {
+
+        strong {
+            font-weight: 600;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            color: #8CACDA;
+    
+            i {
+                color: #84C2E4;
+                padding-right: 10px;
+            }
+        }
+
+        h2 {
+            color: #565656;
+            font-size: 15px;
+            line-height: 21px;
+            font-weight: 400;
+        }
+
+        h3 {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 13px;
+            font-weight: 500;
+            opacity: 70%;
+            text-transform: uppercase;
+            color: #8CACDA;
+        }
+
+        p {
+            margin-top: 30px;
+            font-size: 15px;
+            font-weight: 500;
+        }
     }
 
     .copyright{
-        background-color: #037549;
+        text-align: center;
+
+        .container {
+            border-top: 1px solid #d1d1d1;
+        }
+
+        p {
+            font-size: 15px;
+            font-weight: 300;
+        }
     }
 }
 
@@ -339,6 +432,10 @@ body{
 @media screen and (min-width: 0px) and (max-width: 1023px) {
     .beneficios {
         margin-top: 0px;
+
+        .left {
+            text-align: center;
+        }
     }
 }
 

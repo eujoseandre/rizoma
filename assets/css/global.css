@@ -78,6 +78,9 @@ body em {
 .divAntesala {
   background-color: #EFF6FA;
 }
+.divAntesala .container {
+  border-bottom: 1px solid #d1d1d1;
+}
 .divAntesala h2 {
   font-family: "Manrope", sans-serif;
   font-size: 38px;
@@ -139,11 +142,11 @@ body em {
 .salas button {
   text-align: center;
   background-color: #9FBF54;
-  border: 2px solid #9FBF54;
   border-radius: 20px;
   width: 220px;
   height: 40px;
   margin-top: 40px;
+  border: none;
 }
 .salas button h3 {
   font-family: "Montserrat", sans-serif;
@@ -160,7 +163,6 @@ body em {
 }
 .salas button:hover {
   background-color: #84C2E4;
-  border-color: #84C2E4;
 }
 .salas .cd-single-item {
   padding-bottom: 100px;
@@ -183,7 +185,6 @@ body em {
   line-height: 58px;
   font-weight: 500;
   color: #565656;
-  text-align: left;
   margin-top: 30px;
   margin-bottom: 50px;
 }
@@ -205,26 +206,63 @@ body em {
   text-align: center;
   margin-bottom: 50px;
 }
+.beneficios .left {
+  text-align: left;
+}
+.beneficios .left p {
+  text-align: left;
+}
+.beneficios .left .btn-beneficios {
+  text-align: center;
+  background-color: #9FBF54;
+  border-radius: 20px;
+  border: none;
+  width: 220px;
+  height: 40px;
+  margin-bottom: 80px;
+}
+.beneficios .left .btn-beneficios h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  display: inline;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+.beneficios .left .btn-beneficios i {
+  color: #fff;
+  font-size: 16px;
+  padding: 0px;
+  background-color: inherit;
+  border-radius: 0px;
+}
+.beneficios .left .btn-beneficios:hover {
+  background-color: #84C2E4;
+}
 
 .avaliacoes {
+  background-color: #f2f8fb;
+}
+.avaliacoes .container {
   border-bottom: 1px solid #d1d1d1;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 .avaliacoes .v1, .avaliacoes .v2, .avaliacoes .v3 {
-  opacity: 70%;
   cursor: pointer;
+  border: none;
 }
 .avaliacoes .v1 h3, .avaliacoes .v2 h3, .avaliacoes .v3 h3 {
   font-family: "Manrope", sans-serif;
   font-size: 22px;
   font-weight: 700;
   color: #565656;
-  margin: 10px 0px;
+  margin: 5px 0px;
+  opacity: 80%;
 }
 .avaliacoes .v1 i, .avaliacoes .v2 i, .avaliacoes .v3 i {
   color: #565656;
   font-size: 14px;
+  opacity: 80%;
 }
 .avaliacoes .v1 p, .avaliacoes .v2 p, .avaliacoes .v3 p {
   font-family: "Montserrat", sans-serif;
@@ -233,59 +271,98 @@ body em {
   color: #565656;
   opacity: 80%;
   margin: 10px 0px;
+  opacity: 80%;
 }
 .avaliacoes .v1:hover {
   opacity: 100%;
-  background-color: #f2f8fb;
+  filter: brightness(1);
 }
 .avaliacoes .v1:hover i {
-  color: orangered;
+  color: #84C2E4;
+  opacity: 100%;
 }
 .avaliacoes .v1:hover h3 {
-  color: #037549;
+  color: #8CACDA;
+  opacity: 100%;
+}
+.avaliacoes .v1:hover p {
+  opacity: 100%;
 }
 .avaliacoes .v2:hover {
   opacity: 100%;
-  background-color: #f2f8fb;
+  filter: brightness(1);
 }
 .avaliacoes .v2:hover i {
-  color: orangered;
+  color: #84C2E4;
+  opacity: 100%;
 }
 .avaliacoes .v2:hover h3 {
-  color: #037549;
+  color: #8CACDA;
+  opacity: 100%;
+}
+.avaliacoes .v2:hover p {
+  opacity: 100%;
 }
 .avaliacoes .v3:hover {
   opacity: 100%;
-  background-color: #f2f8fb;
+  filter: brightness(1);
 }
 .avaliacoes .v3:hover i {
-  color: orangered;
+  color: #84C2E4;
+  opacity: 100%;
 }
 .avaliacoes .v3:hover h3 {
-  color: #037549;
+  color: #8CACDA;
+  opacity: 100%;
+}
+.avaliacoes .v3:hover p {
+  opacity: 100%;
 }
 
 .rodape {
-  background-color: #769D6F;
-  font-family: "Manrope", sans-serif;
-  color: #fff;
+  font-family: "Montserrat", sans-serif;
 }
-.rodape p {
-  margin: 0;
-  margin-top: 18px;
-  font-size: 16px;
+.rodape .telefone strong {
+  font-weight: 600;
+}
+.rodape .telefone h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #8CACDA;
+}
+.rodape .telefone h1 i {
+  color: #84C2E4;
+  padding-right: 10px;
+}
+.rodape .telefone h2 {
+  color: #565656;
+  font-size: 15px;
+  line-height: 21px;
   font-weight: 400;
 }
-.rodape h3 {
-  margin-top: 40px;
-  font-size: 20px;
-  font-weight: 600;
-  padding-bottom: 8px;
-  border-bottom: solid 2px #fff;
-  width: 30%;
+.rodape .telefone h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 70%;
+  text-transform: uppercase;
+  color: #8CACDA;
+}
+.rodape .telefone p {
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 500;
 }
 .rodape .copyright {
-  background-color: #037549;
+  text-align: center;
+}
+.rodape .copyright .container {
+  border-top: 1px solid #d1d1d1;
+}
+.rodape .copyright p {
+  font-size: 15px;
+  font-weight: 300;
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
@@ -296,6 +373,9 @@ body em {
 @media screen and (min-width: 0px) and (max-width: 1023px) {
   .beneficios {
     margin-top: 0px;
+  }
+  .beneficios .left {
+    text-align: center;
   }
 }
 @media screen and (max-width: 1023px) {
