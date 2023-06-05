@@ -237,6 +237,7 @@ body em {
 }
 .avaliacoes .v1:hover {
   opacity: 100%;
+  background-color: #f2f8fb;
 }
 .avaliacoes .v1:hover i {
   color: orangered;
@@ -246,6 +247,7 @@ body em {
 }
 .avaliacoes .v2:hover {
   opacity: 100%;
+  background-color: #f2f8fb;
 }
 .avaliacoes .v2:hover i {
   color: orangered;
@@ -255,6 +257,7 @@ body em {
 }
 .avaliacoes .v3:hover {
   opacity: 100%;
+  background-color: #f2f8fb;
 }
 .avaliacoes .v3:hover i {
   color: orangered;
