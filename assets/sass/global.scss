@@ -72,11 +72,11 @@ body{
     
 .banner-principal {
     .imagem-banner {
-        background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
-        -moz-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
-        -webkit-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
-        -ms-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
-        -o-background: linear-gradient(rgba(159, 191, 84, 0.7), rgba(132,194,228, 0.7)), url(../../images/sala03/1678910855127.jpg);
+        background: linear-gradient(rgba(140,172,218, 0.4), rgba(132,194,228, 0.9)), url(../../images/sala03/1678910855127.jpg);
+        -moz-background: linear-gradient(rgba(140,172,218, 0.4), rgba(132,194,228, 0.9)), url(../../images/sala03/1678910855127.jpg);
+        -webkit-background: linear-gradient(rgba(140,172,218, 0.4), rgba(132,194,228, 0.9)), url(../../images/sala03/1678910855127.jpg);
+        -ms-background: linear-gradient(rgba(140,172,218, 0.4), rgba(132,194,228, 0.9)), url(../../images/sala03/1678910855127.jpg);
+        -o-background: linear-gradient(rgba(140,172,218, 0.4), rgba(132,194,228, 0.9)), url(../../images/sala03/1678910855127.jpg);
         filter: brightness(0.9);
         display: flex;
         flex-direction: column;
@@ -89,33 +89,32 @@ body{
 }
 
 .divAntesala {
-
     background-color: #EFF6FA;
     //border-bottom: 1px solid #d1d1d1;
     
     h2 {
         font-family: 'Manrope', sans-serif;
-        font-size: 34px;
-        line-height: 42px;
+        font-size: 38px;
+        line-height: 44px;
         font-weight: 600;
-        color: #037549;
+        color: #565656;
         margin-bottom: 20px;
-    }
-
-    strong {
-        color: #9FBF54;
     }
 
     h3 {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
-        line-height: 22px;
+        line-height: 24px;
+        font-weight: 400;
         color: #565656;
-        opacity: 80%;
+    }
+
+    strong {
+        color: #8CACDA;
     }
 
     img {
-        width: 100px;
+        width: 120px;
         margin: 20px 0;
     }
 }
@@ -124,37 +123,37 @@ body{
     background-color: #ffffff;
 
     .divisoria {
-
         h2 {
             font-family: 'Manrope', sans-serif;
-            font-size: 34px;
-            line-height: 42px;
-            font-weight: 600;
-            color: #037549;
+            font-size: 48px;
+            line-height: 58px;
+            font-weight: 500;
+            color: #565656;
             text-align: center;
-            margin-bottom: 20px;
+            margin-top: 50px;
+            margin-bottom: 50px;
         }
         p {
             font-family: 'Montserrat', sans-serif;
             font-size: 16px;
-            line-height: 22px;
+            line-height: 24px;
             color: #565656;
             text-align: center;
-            opacity: 60%;
         }
     }
 
     h2 {
         font-family: 'Manrope', sans-serif;
-        font-size: 26px;
+        font-size: 38px;
         font-weight: 600;
-        color: #037549;
+        color: #8CACDA;
         margin-top: 15px;
     }
 
     p {
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
+        line-height: 22px;
         color: #565656;
         margin-top: 15px;
         opacity: 80%;
@@ -165,16 +164,18 @@ body{
         background-color: #9FBF54;
         border: 2px solid #9FBF54;
         border-radius: 20px;
-        width: 210px;
+        width: 220px;
         height: 40px;
         margin-top: 40px;
 
         h3 {
             font-family: 'Montserrat', sans-serif;
-            font-size: 16px;
+            font-size: 14px;
+            font-weight: 700;
             color: #fff;
             display: inline;
             margin-left: 5px;
+            text-transform: uppercase;
         }
 
         i{

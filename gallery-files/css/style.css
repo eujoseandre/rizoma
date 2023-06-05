@@ -42,7 +42,10 @@ img {
 .cd-slider {
   position: relative;
   z-index: 1;
-  overflow: hidden; }
+  overflow: hidden;
+  border-radius: 30px;
+}
+
 .cd-slider::before {
     /* never visible - this is used in jQuery to check the current MQ */
     content: 'mobile';
@@ -95,7 +98,7 @@ img {
         left: 0;
         height: 100%;
         width: 100%;
-        background: rgba(159, 191, 84, 0.4) url("../img/cd-icon-zoom.svg") no-repeat center center;
+        background: rgba(140,172,218, 0.2) url("../img/cd-icon-zoom.svg") no-repeat center center;
         /* size of the icon */
         background-size: 48px;
         opacity: 0;
