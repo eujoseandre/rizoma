@@ -11,6 +11,7 @@ img {
 .cd-single-item {
   position: relative;
   background: #ffffff;
+  border-radius: 20px;
 }
 
 .cd-slider-wrapper {
@@ -43,7 +44,7 @@ img {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .cd-slider::before {

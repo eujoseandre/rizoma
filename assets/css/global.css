@@ -167,45 +167,43 @@ body em {
 }
 
 .beneficios {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(242, 248, 251) 100%);
   text-align: center;
-  margin-top: 180px;
+  margin-top: 200px;
 }
 .beneficios i {
-  color: #84C2E4;
-  font-size: 30px;
-  padding: 25px;
+  color: #8CACDA;
+  font-size: 26px;
+  padding: 20px;
   background-color: #f2f8fb;
   border-radius: 40px;
 }
+.beneficios h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 500;
+  color: #565656;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
 .beneficios h3 {
   font-family: "Manrope", sans-serif;
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 500;
-  color: #037549;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #565656;
   padding: 20px;
   opacity: 80%;
   margin-top: 20px;
 }
-.beneficios h2 {
-  font-family: "Manrope", sans-serif;
-  font-size: 34px;
-  line-height: 42px;
-  font-weight: 600;
-  color: #037549;
-  text-align: center;
-  margin-bottom: 20px;
-}
 .beneficios p {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   color: #565656;
   text-align: center;
-  padding-bottom: 20px;
-  opacity: 80%;
+  margin-bottom: 50px;
 }
 
 .avaliacoes {
