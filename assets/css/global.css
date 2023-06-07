@@ -220,10 +220,7 @@ body em {
   margin-bottom: 50px;
 }
 .beneficios .left {
-  text-align: left;
-}
-.beneficios .left p {
-  text-align: left;
+  text-align: left !important;
 }
 .beneficios .left .btn-beneficios {
   text-align: center;
@@ -398,7 +395,7 @@ body em {
     margin-top: 0px;
   }
   .beneficios .left {
-    text-align: center;
+    text-align: center !important;
   }
 }
 @media screen and (max-width: 1023px) {

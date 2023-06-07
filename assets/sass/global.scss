@@ -256,11 +256,8 @@ body{
     }
 
     .left {
-        text-align: left;
 
-        p {
-            text-align: left;
-        }
+        text-align: left !important;
 
         .btn-beneficios {
             text-align: center;
@@ -464,7 +461,7 @@ body{
         margin-top: 0px;
 
         .left {
-            text-align: center;
+            text-align: center !important;
         }
     }
 }
