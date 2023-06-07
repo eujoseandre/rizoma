@@ -59,6 +59,10 @@ body em {
   color: #565656;
   font-weight: 500;
   opacity: 80%;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
 }
 .navbar .nav-item {
   font-family: "Manrope", sans-serif;
@@ -169,6 +173,10 @@ body em {
   height: 40px;
   margin-top: 40px;
   border: none;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
 }
 .salas button h3 {
   font-family: "Montserrat", sans-serif;
@@ -269,6 +277,10 @@ body em {
 .avaliacoes .v1, .avaliacoes .v2, .avaliacoes .v3 {
   cursor: pointer;
   border: none;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
 }
 .avaliacoes .v1 h3, .avaliacoes .v2 h3, .avaliacoes .v3 h3 {
   font-family: "Manrope", sans-serif;

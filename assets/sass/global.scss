@@ -66,6 +66,11 @@ body{
         color: #565656;
         font-weight: 500;
         opacity: 80%;
+        transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -ms-transition-duration: 0.5s;
+
     }
 
     .nav-item {
@@ -198,6 +203,11 @@ body{
         height: 40px;
         margin-top: 40px;
         border: none;
+        transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -ms-transition-duration: 0.5s;
+
 
         h3 {
             font-family: 'Montserrat', sans-serif;
@@ -315,6 +325,10 @@ body{
     .v1, .v2, .v3 {
         cursor: pointer;
         border: none;
+        transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -ms-transition-duration: 0.5s;
 
         h3{
             font-family: 'Manrope', sans-serif;
