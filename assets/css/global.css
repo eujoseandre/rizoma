@@ -33,7 +33,7 @@ body em {
 }
 .menutopo i {
   font-size: 14px;
-  color: #84C2E4;
+  color: #8CACDA;
   opacity: 70%;
 }
 .menutopo p {
@@ -85,7 +85,16 @@ body em {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 450px;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+}
+.banner-principal .imagem-banner h2 {
+  font-family: "Manrope", sans-serif;
+  color: #ffffff;
+  font-size: 46px;
+  font-weight: 600;
+  text-shadow: 0px 0px 3px #565656;
 }
 
 .divAntesala {
@@ -139,10 +148,10 @@ body em {
 }
 .salas h2 {
   font-family: "Manrope", sans-serif;
-  font-size: 38px;
+  font-size: 36px;
   font-weight: 600;
   color: #8CACDA;
-  margin-top: 15px;
+  margin-top: 0;
 }
 .salas p {
   font-family: "Montserrat", sans-serif;
@@ -209,7 +218,7 @@ body em {
   color: #565656;
   padding: 20px;
   opacity: 80%;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .beneficios p {
   font-family: "Montserrat", sans-serif;
@@ -217,7 +226,7 @@ body em {
   line-height: 22px;
   color: #565656;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .beneficios .left {
   text-align: left !important;
@@ -395,12 +404,15 @@ body em {
     margin-top: 0px;
   }
   .beneficios .left {
-    text-align: center !important;
+    text-align: center;
   }
 }
 @media screen and (max-width: 1023px) {
   .banner-principal .imagem-banner {
     height: 100%;
+  }
+  .banner-principal .imagem-banner h2 {
+    display: none;
   }
 }
 
