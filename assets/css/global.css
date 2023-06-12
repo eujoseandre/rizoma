@@ -424,7 +424,9 @@ body em {
     height: 100%;
   }
   .banner-principal .imagem-banner h2 {
-    display: none;
+    font-size: 28px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
