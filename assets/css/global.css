@@ -101,6 +101,30 @@ body em {
   text-shadow: 0px 0px 3px #565656;
 }
 
+.banner-principal2 .imagem-banner {
+  background: linear-gradient(rgba(140, 172, 218, 0.4), rgba(132, 194, 228, 0.9)), url(../../images/clinica/1678910855185.jpg);
+  -moz-background: linear-gradient(rgba(140, 172, 218, 0.4), rgba(132, 194, 228, 0.9)), url(../../images/clinica/1678910855185.jpg);
+  -webkit-background: linear-gradient(rgba(140, 172, 218, 0.4), rgba(132, 194, 228, 0.9)), url(../../images/clinica/1678910855185.jpg);
+  -ms-background: linear-gradient(rgba(140, 172, 218, 0.4), rgba(132, 194, 228, 0.9)), url(../../images/clinica/1678910855185.jpg);
+  -o-background: linear-gradient(rgba(140, 172, 218, 0.4), rgba(132, 194, 228, 0.9)), url(../../images/clinica/1678910855185.jpg);
+  filter: brightness(0.9);
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+}
+.banner-principal2 .imagem-banner h2 {
+  font-family: "Manrope", sans-serif;
+  color: #ffffff;
+  font-size: 46px;
+  font-weight: 600;
+  text-shadow: 0px 0px 3px #565656;
+}
+
 .divAntesala {
   background-color: #EFF6FA;
 }
@@ -239,8 +263,14 @@ body em {
 .beneficios .left {
   text-align: left !important;
 }
+.beneficios .left h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #565656;
+  margin-bottom: 40px;
+}
 .beneficios .left .btn-beneficios {
-  text-align: center;
   background-color: #9FBF54;
   border-radius: 20px;
   border: none;
@@ -266,6 +296,107 @@ body em {
 }
 .beneficios .left .btn-beneficios:hover {
   background-color: #84C2E4;
+}
+
+.beneficios2 {
+  text-align: center;
+}
+.beneficios2 i {
+  color: #8CACDA;
+  font-size: 26px;
+  padding: 20px;
+  background-color: #f2f8fb;
+  border-radius: 40px;
+}
+.beneficios2 h3 {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #565656;
+  padding: 20px;
+  opacity: 80%;
+  margin-top: 10px;
+}
+.beneficios2 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #565656;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.agendeConsulta {
+  background-color: #f2f8fb;
+  vertical-align: center;
+  justify-content: center;
+}
+.agendeConsulta button {
+  text-align: center;
+  background-color: #9FBF54;
+  border-radius: 20px;
+  width: 220px;
+  height: 40px;
+  margin-top: 40px;
+  border: none;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+}
+.agendeConsulta button h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  display: inline;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+.agendeConsulta button i {
+  color: #fff;
+  font-size: 16px;
+}
+.agendeConsulta h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #8CACDA;
+  margin-bottom: 20px;
+}
+.agendeConsulta p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #565656;
+}
+
+.faq h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #565656;
+  margin-bottom: 20px;
+}
+.faq h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  display: inline;
+  text-transform: uppercase;
+}
+.faq p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #565656;
+  opacity: 80%;
+}
+.faq a {
+  text-decoration: none;
+  color: #8CACDA;
 }
 
 .avaliacoes {
@@ -416,7 +547,7 @@ body em {
     margin-top: 0px;
   }
   .beneficios .left {
-    text-align: center;
+    text-align: center !important;
   }
 }
 @media screen and (max-width: 1023px) {
