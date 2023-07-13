@@ -572,6 +572,14 @@ body em {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+  .banner-principal2 .imagem-banner {
+    height: 100%;
+  }
+  .banner-principal2 .imagem-banner h2 {
+    font-size: 28px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 /*# sourceMappingURL=global.css.map */
