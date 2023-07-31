@@ -199,6 +199,41 @@ body{
             font-size: 26px;
         }
     }
+
+    button {
+        text-align: center;
+        background-color: #9FBF54;
+        border-radius: 20px;
+        width: 220px;
+        height: 40px;
+        margin-top: 40px;
+        border: none;
+        transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -ms-transition-duration: 0.5s;
+
+
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+            display: inline;
+            margin-left: 5px;
+            text-transform: uppercase;
+        }
+
+        i {
+            color: #fff;
+            font-size: 16px;
+        }
+    }
+
+    button:hover{
+        background-color: #84C2E4;
+    }
+    
 }
 
 .salas {
@@ -398,6 +433,43 @@ body{
         text-align: center;
         margin-bottom: 40px;
     }
+
+    .dif {
+        text-align: center;
+        background-color: #9FBF54;
+        border-radius: 20px;
+        width: 220px;
+        height: 40px;
+        margin-top: 40px;
+        border: none;
+        transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -ms-transition-duration: 0.5s;
+
+
+        h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+            display: inline;
+            margin-left: 5px;
+            text-transform: uppercase;
+        }
+
+        i {
+            color: #fff;
+            font-size: 16px;
+            padding: 0px;
+            background-color: inherit;
+            border-radius: 0px;
+        }
+    }
+
+    button:hover{
+        background-color: #84C2E4;
+    }
 }
 
 .agendeConsulta {
@@ -449,6 +521,9 @@ body{
 }
 
 .faq {
+    strong {
+        color: #84C2E4;
+    }
     h2 {
         font-family: 'Manrope', sans-serif;
         font-size: 36px;
@@ -474,6 +549,51 @@ body{
     a {
         text-decoration: none;
         color: #8CACDA;
+    }
+    
+    h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height: 22px;
+        color: #565656;
+        text-align: center;
+        opacity: 80%;
+    }
+    .dif {
+        text-align: center;
+        background-color: #9FBF54;
+        border-radius: 20px;
+        width: 220px;
+        height: 40px;
+        margin-top: 40px;
+        border: none;
+        transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -ms-transition-duration: 0.5s;
+
+
+        h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+            display: inline;
+            margin-left: 5px;
+            text-transform: uppercase;
+        }
+
+        i {
+            color: #fff;
+            font-size: 16px;
+            padding: 0px;
+            background-color: inherit;
+            border-radius: 0px;
+        }
+    }
+
+    button:hover{
+        background-color: #84C2E4;
     }
 }
 

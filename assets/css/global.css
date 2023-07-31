@@ -166,6 +166,35 @@ body em {
   color: #9FBF54;
   font-size: 26px;
 }
+.divAntesala button {
+  text-align: center;
+  background-color: #9FBF54;
+  border-radius: 20px;
+  width: 220px;
+  height: 40px;
+  margin-top: 40px;
+  border: none;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+}
+.divAntesala button h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  display: inline;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+.divAntesala button i {
+  color: #fff;
+  font-size: 16px;
+}
+.divAntesala button:hover {
+  background-color: #84C2E4;
+}
 
 .salas {
   background-color: #ffffff;
@@ -339,6 +368,38 @@ body em {
   text-align: center;
   margin-bottom: 40px;
 }
+.beneficios2 .dif {
+  text-align: center;
+  background-color: #9FBF54;
+  border-radius: 20px;
+  width: 220px;
+  height: 40px;
+  margin-top: 40px;
+  border: none;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+}
+.beneficios2 .dif h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  display: inline;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+.beneficios2 .dif i {
+  color: #fff;
+  font-size: 16px;
+  padding: 0px;
+  background-color: inherit;
+  border-radius: 0px;
+}
+.beneficios2 button:hover {
+  background-color: #84C2E4;
+}
 
 .agendeConsulta {
   background-color: #f2f8fb;
@@ -385,6 +446,9 @@ body em {
   color: #565656;
 }
 
+.faq strong {
+  color: #84C2E4;
+}
 .faq h2 {
   font-family: "Manrope", sans-serif;
   font-size: 36px;
@@ -410,6 +474,46 @@ body em {
 .faq a {
   text-decoration: none;
   color: #8CACDA;
+}
+.faq h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #565656;
+  text-align: center;
+  opacity: 80%;
+}
+.faq .dif {
+  text-align: center;
+  background-color: #9FBF54;
+  border-radius: 20px;
+  width: 220px;
+  height: 40px;
+  margin-top: 40px;
+  border: none;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+}
+.faq .dif h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  display: inline;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+.faq .dif i {
+  color: #fff;
+  font-size: 16px;
+  padding: 0px;
+  background-color: inherit;
+  border-radius: 0px;
+}
+.faq button:hover {
+  background-color: #84C2E4;
 }
 
 .avaliacoes {
