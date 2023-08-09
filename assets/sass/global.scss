@@ -550,11 +550,17 @@ body{
         text-decoration: none;
         color: #8CACDA;
     }
+
+    .social {
+        text-decoration: underline;
+        color: blue;
+        cursor: pointer;
+    }
     
     h4 {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
-        line-height: 22px;
+        line-height: 26px;
         color: #565656;
         text-align: center;
         opacity: 80%;
