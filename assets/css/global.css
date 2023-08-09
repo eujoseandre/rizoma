@@ -488,6 +488,9 @@ body em {
   text-align: center;
   opacity: 80%;
 }
+.faq h4 strong {
+  color: #565656;
+}
 .faq .dif {
   text-align: center;
   background-color: #9FBF54;
