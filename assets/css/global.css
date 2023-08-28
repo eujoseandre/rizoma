@@ -102,11 +102,11 @@ body em {
 }
 
 .banner-principal2 .imagem-banner {
-  background: linear-gradient(rgba(140, 172, 218, 0.4), rgba(132, 194, 228, 0.9)), url(../../images/clinica/1678910855185.jpg);
-  -moz-background: linear-gradient(rgba(140, 172, 218, 0.4), rgba(132, 194, 228, 0.9)), url(../../images/clinica/1678910855185.jpg);
-  -webkit-background: linear-gradient(rgba(140, 172, 218, 0.4), rgba(132, 194, 228, 0.9)), url(../../images/clinica/1678910855185.jpg);
-  -ms-background: linear-gradient(rgba(140, 172, 218, 0.4), rgba(132, 194, 228, 0.9)), url(../../images/clinica/1678910855185.jpg);
-  -o-background: linear-gradient(rgba(140, 172, 218, 0.4), rgba(132, 194, 228, 0.9)), url(../../images/clinica/1678910855185.jpg);
+  background: linear-gradient(rgba(140, 172, 218, 0.4), rgba(132, 194, 228, 0.9)), url(../../images/clinica/clinica01.jpg);
+  -moz-background: linear-gradient(rgba(140, 172, 218, 0.4), rgba(132, 194, 228, 0.9)), url(../../images/clinica/clinica01.jpg);
+  -webkit-background: linear-gradient(rgba(140, 172, 218, 0.4), rgba(132, 194, 228, 0.9)), url(../../images/clinica/clinica01.jpg);
+  -ms-background: linear-gradient(rgba(140, 172, 218, 0.4), rgba(132, 194, 228, 0.9)), url(../../images/clinica/clinica01.jpg);
+  -o-background: linear-gradient(rgba(140, 172, 218, 0.4), rgba(132, 194, 228, 0.9)), url(../../images/clinica/clinica01.jpg);
   filter: brightness(0.9);
   display: flex;
   flex-direction: column;
