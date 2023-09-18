@@ -133,11 +133,12 @@ body em {
 }
 .divAntesala h2 {
   font-family: "Manrope", sans-serif;
-  font-size: 31px;
-  line-height: 50px;
+  font-size: 34px;
+  line-height: 58px;
   font-weight: 600;
   color: #565656;
   margin-bottom: 20px;
+  opacity: 80%;
 }
 .divAntesala h3 {
   font-family: "Montserrat", sans-serif;
@@ -148,10 +149,10 @@ body em {
 }
 .divAntesala strong {
   color: #8CACDA;
-  font-size: 43px;
+  font-size: 48px;
 }
 .divAntesala img {
-  width: 120px;
+  width: 130px;
   margin: 20px 0;
 }
 .divAntesala .sub-info p {
