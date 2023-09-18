@@ -123,11 +123,11 @@ body{
 
 .banner-principal2 {
     .imagem-banner {
-        background: linear-gradient(rgba(140,172,218, 0.4), rgba(132,194,228, 0.9)), url(../../images/clinica/clinica01.jpg);
-        -moz-background: linear-gradient(rgba(140,172,218, 0.4), rgba(132,194,228, 0.9)), url(../../images/clinica/clinica01.jpg);
-        -webkit-background: linear-gradient(rgba(140,172,218, 0.4), rgba(132,194,228, 0.9)), url(../../images/clinica/clinica01.jpg);
-        -ms-background: linear-gradient(rgba(140,172,218, 0.4), rgba(132,194,228, 0.9)), url(../../images/clinica/clinica01.jpg);
-        -o-background: linear-gradient(rgba(140,172,218, 0.4), rgba(132,194,228, 0.9)), url(../../images/clinica/clinica01.jpg);
+        background: linear-gradient(rgba(140,172,218, 0.2), rgba(132,194,228, 0.7)), url(../../images/Banner-Site.HEIC);
+        -moz-background: linear-gradient(rgba(140,172,218, 0.2), rgba(132,194,228, 0.7)), url(../../images/Banner-Site.HEIC);
+        -webkit-background: linear-gradient(rgba(140,172,218, 0.2), rgba(132,194,228, 0.7)), url(../../images/Banner-Site.HEIC);
+        -ms-background: linear-gradient(rgba(140,172,218, 0.2), rgba(132,194,228, 0.7)), url(../../images/Banner-Site.HEIC);
+        -o-background: linear-gradient(rgba(140,172,218, 0.2), rgba(132,194,228, 0.7)), url(../../images/Banner-Site.HEIC);
         filter: brightness(0.9);
         display: flex;
         flex-direction: column;
@@ -135,7 +135,7 @@ body{
         //background-size: 100% 100%;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        height: 400px;
+        height: 450px;
 
         text-align: center;
         justify-content: center;
@@ -159,8 +159,8 @@ body{
     
     h2 {
         font-family: 'Manrope', sans-serif;
-        font-size: 38px;
-        line-height: 44px;
+        font-size: 31px;
+        line-height: 50px;
         font-weight: 600;
         color: #565656;
         margin-bottom: 20px;
@@ -176,6 +176,7 @@ body{
 
     strong {
         color: #8CACDA;
+        font-size: 43px;
     }
 
     img {
@@ -521,6 +522,7 @@ body{
 }
 
 .faq {
+
     strong {
         color: #84C2E4;
     }
@@ -604,6 +606,56 @@ body{
 
     button:hover{
         background-color: #84C2E4;
+    }
+}
+
+#profissionais{
+
+    .wrapper {
+        padding: 50px;
+    }
+
+    .photo {
+        img {
+            width: 50%;
+            border-radius: 50%;
+            border: 10px solid #84C2E4;
+        }
+
+        h1 {
+            font-family: 'Manrope', sans-serif;
+            font-size: 32px;
+            font-weight: 600;
+            color: #565656;
+            margin-top: 20px;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            line-height: 22px;
+            color: #565656;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    }
+
+    .textos {
+        img {
+            width: 7%;
+            padding: 0;
+            margin: 0;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 500;
+            color: #565656;
+            text-align: center;
+            opacity: 80%;
+        }
     }
 }
 
